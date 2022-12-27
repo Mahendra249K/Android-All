@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/group"
+            android:icon="@drawable/group"
+            android:title="Group" />
+
+        <item
+            android:id="@+id/gallary"
+            android:icon="@drawable/gallary"
+            android:title="Gallary" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="Fitness">
+
+
+            <menu>
+
+                <item
+                    android:id="@+id/yoga"
+                    android:icon="@drawable/yoga"
+                    android:title="Yoga" />
+
+                <item
+                    android:id="@+id/gym"
+                    android:icon="@drawable/workout"
+                    android:title="Gym" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="System">
+
+
+            <menu>
+
+                <item
+                    android:id="@+id/setting"
+                    android:icon="@drawable/setting"
+                    android:title="setting" />
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

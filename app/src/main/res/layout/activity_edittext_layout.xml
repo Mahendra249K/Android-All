@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" android:layout_alignParentEnd="true" android:layout_alignParentStart="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:background="@color/colorPrimary" android:id="@+id/toolbar" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:layout_alignParentEnd="true" android:layout_alignParentStart="true" android:layout_alignParentBottom="true" android:layout_below="@+id/toolbar" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:orientation="vertical" android:gravity="center">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:counterMaxLength="10"
+        app:counterEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/mob_number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:hint="Mobile Number"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <com.google.android.material.textfield.TextInputEditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/password" android:inputType="numberPassword" android:hint="Password"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@color/colorPrimary" android:id="@+id/login" android:letterSpacing="0.1" android:shadowRadius="100" android:text="Login" android:layout_margin="50dp" android:layout_gravity="center" android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" android:layout_alignParentEnd="true" android:layout_alignParentStart="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:background="@color/colorPrimary" android:id="@+id/toolbar" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <fragment android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/basic_fragment" android:layout_below="@+id/toolbar" android:layout_above="@+id/scroll_view" android:name="com.TextView_Fragment"/>
+
+
+    <HorizontalScrollView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scroll_view" android:layout_alignParentBottom="true">
+
+
+    <LinearLayout android:layout_height="75dp" android:layout_width="match_parent" android:background="#95efecec" android:id="@+id/llll" android:layout_alignParentBottom="true" android:orientation="horizontal">
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/text_View" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView1" app:srcCompat="@drawable/text" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Text View" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/edit_text" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView2" app:srcCompat="@drawable/text_box" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Edit Text" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/imageView" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView3" app:srcCompat="@drawable/image" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Image View" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/button" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView4" app:srcCompat="@drawable/button" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Button" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/radio_button" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView5" app:srcCompat="@drawable/radio_button" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView5" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Radio Button" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/checkbox" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView6" app:srcCompat="@drawable/check_box" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView6" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Check Box" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/toast" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView7" app:srcCompat="@drawable/toast" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView7" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Toast" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/swich" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView8" app:srcCompat="@drawable/toggle" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView8" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Swich" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/toggle" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView9" app:srcCompat="@drawable/swich" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView9" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Toggle" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/time_picker" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView10" app:srcCompat="@drawable/time" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView10" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Time Picker" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/date_picker" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView11" app:srcCompat="@drawable/calender" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView11" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Date Picker" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/rating_bar" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="20dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView12" app:srcCompat="@drawable/star" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView12" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Rating Bar" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="65dp" android:layout_width="70dp" android:background="@drawable/background_2" android:id="@+id/alert_diloag" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginRight="40dp" android:layout_marginTop="5dp" android:layout_marginLeft="20dp">
+
+    <ImageView android:layout_height="40dp" android:layout_width="40dp" android:id="@+id/imageView13" app:srcCompat="@drawable/alert" android:layout_margin="5dp" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView13" android:layout_marginTop="-5dp" android:layout_gravity="center" android:text="Alert Diloag" android:gravity="center" android:textColor="#000000" android:textSize="10dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/list_view"
+        android:icon="@drawable/list"
+        android:enabled="true"
+        android:title="List View" />
+
+    <item
+        android:id="@+id/grid_view"
+        android:icon="@drawable/grid_view"
+        android:title="Grid View" />
+
+    <item
+        android:id="@+id/recycle_view"
+        android:icon="@drawable/recycle_view"
+        android:title="Recycle View" />
+
+    <item
+        android:id="@+id/web_view"
+        android:icon="@drawable/web"
+        android:title="Web View" />
+
+</menu>

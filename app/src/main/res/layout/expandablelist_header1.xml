@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#147168" android:orientation="vertical" android:gravity="center_vertical" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:letterSpacing="0.05" android:text="helloooo nhow sa" android:layout_marginLeft="40dp" android:padding="18dp" android:id="@+id/expandabale_list_header" android:textColor="#ffffff" android:textStyle="bold" android:textSize="20dp"/>
+
+</LinearLayout>

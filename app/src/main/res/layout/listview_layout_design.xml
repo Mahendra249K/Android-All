@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_margin="5dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="15dp" android:background="@drawable/background_2" android:orientation="horizontal" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_height="70dp" android:layout_width="70dp" android:src="@drawable/iiiiii" android:id="@+id/listview_layout_design_cicle_image" android:layout_gravity="center_vertical"/>
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/listview_layout_design_text" android:layout_gravity="center_vertical" android:letterSpacing="0.07" android:fontFamily="@font/text4" android:text="helo wor aregc" android:layout_marginLeft="10dp" android:gravity="center" android:textColor="#000000" android:textSize="30dp"/>
+
+</LinearLayout>

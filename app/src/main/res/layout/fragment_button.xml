@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:clickable="true" android:background="#ffffff" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <Button android:layout_height="wrap_content" android:layout_width="200dp" android:text="Simple Button" android:layout_marginTop="30dp" android:id="@+id/simple_btn" android:layout_gravity="center"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="300dp" android:background="@drawable/background_1" android:text="Simple Drawable Button" android:layout_marginTop="30dp" android:id="@+id/simple_drawable_btn" android:layout_gravity="center" android:layout_marginRight="30dp" android:layout_marginLeft="30dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@drawable/backgraoud_4" android:text="Color Drawable Button" android:layout_marginTop="30dp" android:id="@+id/color_drawable_btn" android:layout_marginRight="30dp" android:layout_marginLeft="30dp" android:textColor="#ffffff"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" android:layout_marginTop="30dp" android:id="@+id/image_background_btn" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Simple Button and background Image" android:id="@+id/textView" android:layout_gravity="center"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@android:color/transparent" android:layout_marginTop="30dp" android:id="@+id/image_btn_demo" android:layout_gravity="center" android:src="@drawable/button"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Image Button \10and set background transparent" android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

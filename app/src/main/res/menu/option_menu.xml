@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <group android:orderInCategory="2" android:id="@+id/id1">
+
+  <item android:title="ONE" android:id="@+id/one"/>
+
+  <item android:title="TWO" android:id="@+id/two"/>
+
+</group>
+
+
+  <group android:orderInCategory="1">
+
+  <item android:title="THREE" android:id="@+id/three"/>
+
+  <item android:title="FOUR" android:id="@+id/four"/>
+
+</group>
+
+  <item android:title="menus" android:orderInCategory="2" android:id="@+id/mmm" android:icon="@drawable/menu" app:showAsAction="always"/>
+
+  <item android:title="Search"
+      android:orderInCategory="1"
+      android:id="@+id/app_bar_search"
+      android:icon="@drawable/ic_search_black_24dp"
+      app:showAsAction="always"
+      app:actionViewClass="android.widget.SearchView"/>
+
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" android:clickable="true" android:background="#747eaf" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/background_2" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="50dp" android:padding="15dp" android:gravity="center_horizontal">
+
+
+    <TableRow android:layout_height="match_parent" android:layout_width="match_parent" android:background="#e1dede" android:layout_marginBottom="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:letterSpacing="-0.15" android:fontFamily="serif-monospace" android:text="Registration" android:layout_span="2" android:textColor="#cf1d1d" android:textSize="30dp"/>
+
+</TableRow>
+
+
+    <TableRow android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/backgraoud_4" android:layout_marginBottom="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="left|center_vertical|center_horizontal|center" android:text="First Name :" android:textColor="#ffffff" android:textSize="15dp" android:layout_marginLeft="3dp" android:layout_gravity="center"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ffffff" android:inputType="textPersonName" android:hint="your surname" android:id="@+id/editTextTextPersonName"/>
+
+</TableRow>
+
+
+    <TableRow android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/backgraoud_4" android:layout_marginBottom="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:text="Last Name :" android:textColor="#ffffff" android:textSize="15dp" android:layout_marginLeft="3dp" android:layout_gravity="left|center_vertical|center_horizontal|center"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ffffff" android:inputType="textPersonName" android:hint="your name" android:id="@+id/editTextTextPersonName2"/>
+
+</TableRow>
+
+
+    <TableRow android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/backgraoud_4" android:layout_marginBottom="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:text="E-mail :" android:textColor="#ffffff" android:textSize="15dp" android:layout_marginLeft="3dp" android:layout_gravity="left|center_vertical|center_horizontal|center"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ffffff" android:inputType="textEmailAddress" android:hint="abc@gmail.com" android:id="@+id/editTextTextEmailAddress"/>
+
+</TableRow>
+
+
+    <TableRow android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/backgraoud_4">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:text="Phone No :" android:textColor="#ffffff" android:textSize="15dp" android:layout_marginLeft="3dp" android:layout_gravity="left|center_vertical|center_horizontal|center"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ffffff" android:inputType="phone" android:hint="+91 000000000000" android:id="@+id/editTextPhone"/>
+
+</TableRow>
+
+
+    <TableRow android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/background_2" android:layout_marginTop="15dp" android:gravity="center" android:layout_marginBottom="10dp" android:fontFamily="@font/text2" android:text="Submit" android:layout_span="2" android:textColor="#bf2b2b" android:layout_gravity="center" android:elevation="100dp"/>
+
+</TableRow>
+
+</TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:clickable="true" android:background="#ffc8d5" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RatingBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginTop="100dp" android:layout_marginLeft="50dp" android:id="@+id/ratingBarrrrrrr"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_marginTop="100dp" android:layout_marginLeft="100dp" android:id="@+id/rating_bar_text" android:layout_below="@+id/ratingBarrrrrrr" android:textColor="#000000" android:textSize="30dp"/>
+
+</RelativeLayout>

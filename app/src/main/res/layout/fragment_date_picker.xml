@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" android:clickable="true" android:background="#ffffff" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <DatePicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/backgraoud_4" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_alignParentEnd="true" android:layout_alignParentRight="true" android:id="@+id/date_pickerrrrrrrr"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/date_picker_text" app:layout_constraintTop_toBottomOf="@+id/date_pickerrrrrrrr" android:layout_marginTop="30dp" android:textSize="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

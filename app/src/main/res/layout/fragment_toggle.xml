@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" android:clickable="true" android:background="#ffffff" android:id="@+id/toggle_fragmnet" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ToggleButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/backgraoud_4" android:id="@+id/toggleButton_demo" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:text="ToggleButton"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tttttttt" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/toggleButton_demo" android:textSize="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:clickable="true" android:background="#ffffff" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="30dp" android:layout_marginLeft="20dp" android:padding="20dp" android:orientation="vertical">
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="10dp" android:text="Simple Toast" android:id="@+id/simple_toast"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="10dp" android:text="Center Toast" android:id="@+id/center_toast"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="10dp" android:text="Upper Toast" android:id="@+id/upper_toast"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="10dp" android:text="Custom Toast" android:id="@+id/custom_toast"/>
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <androidx.appcompat.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" android:layout_alignParentEnd="true" android:layout_alignParentStart="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:background="@color/colorPrimary" android:id="@+id/toolbar" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <ExpandableListView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/expandedlistview" android:layout_below="@+id/toolbar" android:scrollbars="none"/>
+
+</RelativeLayout>

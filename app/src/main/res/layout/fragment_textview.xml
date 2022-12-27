@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:text="Text View Demo 1" android:layout_marginTop="50dp" android:id="@+id/text1" android:textSize="10dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:text="Text View Demo 2" android:layout_marginTop="30dp" android:id="@+id/text2" android:textSize="15dp" android:layout_below="@+id/text1" android:textColor="#0e29ba" android:textStyle="bold"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:text="Text View Demo 3" android:layout_marginTop="30dp" android:id="@+id/text3" android:textSize="20dp" android:layout_below="@+id/text2" android:textColor="#7b0f8e" android:textStyle="italic"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:text="Text View Demo 4" android:layout_marginTop="30dp" android:id="@+id/text4" android:textSize="25dp" android:layout_below="@+id/text3" android:textColor="#145909" android:outlineSpotShadowColor="#b31717" android:shadowColor="#b31717" android:textColorHighlight="#b31717"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:text="Text View Demo 5" android:layout_marginTop="30dp" android:id="@+id/text5" android:textSize="30dp" android:layout_below="@+id/text4" android:textColor="#bc3b13" android:textStyle="italic" android:letterSpacing="0.1" android:fontFamily="@font/text4"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:text="Text View Demo 6" android:layout_marginTop="30dp" android:id="@+id/text6" android:textSize="35dp" android:layout_below="@+id/text5" android:textColor="#188783" android:fontFamily="monospace"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:text="Text View Demo 7" android:layout_marginTop="30dp" android:id="@+id/text7" android:textSize="40dp" android:layout_below="@+id/text6" android:textColor="#bc3b13" android:elevation="1000dp"/>
+
+</LinearLayout>
+
+</RelativeLayout>

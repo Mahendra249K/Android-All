@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:orientation="vertical" android:gravity="center_vertical" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Text jdkbjsab View" android:layout_marginLeft="60dp" android:id="@+id/expandabale_list_child" android:textColor="#000000" android:textSize="16dp"/>
+
+</LinearLayout>

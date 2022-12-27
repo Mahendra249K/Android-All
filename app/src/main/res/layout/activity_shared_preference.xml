@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" android:layout_alignParentEnd="true" android:layout_alignParentStart="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:background="@drawable/backgraoud_4" android:id="@+id/toolbar" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/name" android:inputType="textPersonName" android:layout_centerHorizontal="true" android:layout_below="@+id/toolbar" android:hint="You Name" android:layout_margin="40dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/age" android:inputType="number" android:layout_centerHorizontal="true" android:layout_below="@+id/name" android:hint="Your Age" android:layout_margin="40dp"/>
+
+</RelativeLayout>

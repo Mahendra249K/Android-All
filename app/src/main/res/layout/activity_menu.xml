@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/bkk" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <androidx.appcompat.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" app:layout_constraintTop_toTopOf="parent" android:background="@android:color/transparent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:layout_alignParentEnd="true" android:layout_alignParentStart="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"  android:id="@+id/toolbar" android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+  <ListView android:layout_height="wrap_content" android:layout_width="match_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/list_item" app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+  <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/popupmenu" app:layout_constraintTop_toBottomOf="@+id/list_item" android:layout_below="@+id/list_item" android:text="Popup Menu Dialog" android:gravity="center" android:textColor="#000000" android:textSize="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
